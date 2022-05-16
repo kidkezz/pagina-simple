@@ -1,0 +1,75 @@
+html{
+	scroll-behavior: smooth;
+}
+#fondopagina{
+	background: linear-gradient(top, black, white);
+	font-size: 20px;
+
+}
+
+
+#primertitulo{
+	background-color: #1196EF;
+	color: black ;
+	font-size: 2em;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 400;
+	line-height: 2;
+	text-align: center;
+	
+}
+#navegacion{
+	background-color: black;
+	line-height: 2;
+    position: relative;
+    
+	
+}
+
+.container{
+	display: flex;
+	text-align: center;
+	margin-left: 4.5em;
+	margin-right: 4.5em;
+	text-decoration: none;
+
+}
+.child{
+	flex-grow: 1;
+	gap: 10 px;
+}
+.letra-cabezero{
+	color: white;
+
+
+}
+
+
+
+
+#contenidoprincipal{
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 213px;
+	padding-right: 213px;
+
+}
+#articulos{
+	text-align: justify;
+}
+#noticia1{
+	font-family: 'Akshar', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+#piedepagina{
+	background-color: black;
+	clear: both;
+	margin-top: 20px;
+
+}
+#texto-pie{
+	text-align: center;
+	color: white;
+}
